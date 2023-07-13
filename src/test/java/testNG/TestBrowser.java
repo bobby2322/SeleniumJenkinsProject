@@ -19,7 +19,7 @@ public class TestBrowser extends TestBase{
 	public void launchBrowser2(){
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("http://www.google.com");
-		driver.findElement(By.name("q")).sendKeys("Hiii");
+		driver.findElement(By.name("q")).sendKeys("Hi");
 //		Assert.fail();
 	}
 }
